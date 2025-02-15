@@ -46,9 +46,14 @@
 
 #navegaçao {
     
+   width: 1300px;
     padding-top: 20px;
     background-color: linen;
     text-align: center;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
 }
 /**************************links cabeçalho*******************/
 a {
