@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+#bode {
+    
+    font-family:'Trebuchet MS', 'Helvetica', Arial, sans-serif;
+    background-color: black;
+}
+
+#fundo {
+    background-image: url('imagens/ela.png');
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    /*background-position: center center;*/
+
+   
+    background-color: linen;
+}
+
+
+
+@font-face {
+    font-family:'terror' ;
+    src: url('terror/Nightcore\ Demo.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'titulo';
+    src: url('terror/fontes/titulo.ttf')format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#nando {
+    font-family: 'titulo';
+    font-size: 50px;
+}
+
+
+
+#navegaçao {
+    
+    padding-top: 20px;
+    background-color: linen;
+    text-align: center;
+}
+/**************************links cabeçalho*******************/
+a {
+
+    font-size: 20px;
+    
+}
+a:link, a:visited {
+    color:  rgb(71, 3, 3);
+    padding: 15px 18px;
+}
+
+a:hover {
+    color:linen;
+    background: rgb(71, 3, 3);
+
+}
+
+ #vamo, a {
+
+/*color: rgb(71, 3, 3);*/
+
+   margin-left: 100px;
+   margin-right: 50px;
+    margin-top: 10px;
+}
+#logo {
+    margin-top: 1px;
+}
+ #ABISS {
+    font-family: 'terror';
+    color: rgb(53, 1, 1);
+    
+}
+/**************Conteudo***************************/
+
+
+
+#titulo {
+    text-align: justify;
+    margin-left: 30px;
+    margin-top: 50px;
+    width: 450px;
+    color: rgb(255, 255, 255);
+
+}
+#resumo {
+    font-size: 15px;
+    text-align: justify;
+    width: 600px;
+    margin-left: 20px;
+    color: rgb(255, 255, 255);
+}
+
+
+#principal{
+    margin: 10px auto;
+   /* border: 1px solid red;*/
+    width: 1200px;
+    height: 350px;
+
+    background-image: url('imagens/mascara.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+   /* border: 1px solid blue;
+    background-color: rgb(0, 4, 26);*/
+}
+
+#secundario{
+    margin: 10px auto;
+   /* border: 1px solid red;*/
+    width: 1200px;
+    height: 350px;
+    background-color: black;
+
+    /*background-image: url('imagens/mascara.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid blue;
+    background-color: rgb(0, 4, 26);*/
+}
+
+#titulo2 {
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 50px;
+    width: 650px;
+    color: rgb(255, 255, 255);
+
+}
+
+
+.conteiner {
+    display: flex;
+    gap: 60px;
+    height: 600px;
+    justify-content: space-between;
+   /* border: 1px solid red;*/
+    padding: 5px 0px;
+}
+
+#itens {
+    width: 400px;
+    height: 200px;
+    background-color: rgb(90, 2, 2);
+  /*  margin: 30px;*/
+  font-family: 'titulo';
+  color: white;
+  padding: 10px;
+  border-radius: 15px 30px;
+}
+
+
+.clear {
+    clear: both;
+
+}
+
+#titulo3 {
+    text-align: justify;
+    margin-left: 30px;
+    margin-top: 50px;
+    width: 800px;
+    color: rgb(255, 255, 255);
+
+}
+
+#terciario{
+    margin: 10px auto;
+   /* border: 1px solid red;*/
+    width: 1200px;
+    height: 350px;
+    background-color: black;
+
+    /*background-image: url('imagens/mascara.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid blue;
+    background-color: rgb(0, 4, 26);*/
+}
+
+
+#itens1 {
+
+
+background-color: rgb(90, 2, 2);
+  /*  margin: 30px;*/
+  font-family: 'titulo';
+  color: white;
+  padding: 10px;
+  border-radius: 15px 30px;
+}
+.final{
+margin-left: 40px;
+margin-top: 45px;
+    gap: 40px;
+    display: flex;
+    justify-content: left;
+}
+
+
+
+
+
+
+
+
+/*#texto {
+    font-size: 18px;
+    text-align: justify;
+    margin-top: 80px;
+    width: 750px;
+    color: azure;
+}*/
+
+#formulario {    
+  width: 250px;
+  height: 300px;
+}
+
