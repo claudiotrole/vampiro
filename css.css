@@ -1,140 +1,120 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-
+body {
+    font-family: 'Trebuchet MS', 'Helvetica', Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
 #bode {
-    
+   
     font-family:'Trebuchet MS', 'Helvetica', Arial, sans-serif;
     background-color: black;
 }
 
 #fundo {
-    background-image: url('imagens/ela.png');
+    background-image: url('imagens/mascara.jpg');
     background-repeat: no-repeat;
-    
     background-size: cover;
-    /*background-position: center center;*/
-
-   
+    background-position: center;
     background-color: linen;
+    min-height: 100vh;
 }
 
-
-
 @font-face {
-    font-family:'terror' ;
-    src: url('terror/Nightcore\ Demo.ttf') format('opentype');
+    font-family: 'terror';
+    src: url('terror/Nightcore Demo.ttf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'titulo';
-    src: url('terror/fontes/titulo.ttf')format('opentype');
+    src: url('terror/fontes/titulo.ttf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
+#ABISS {
+    font-family: 'terror';
+    color: rgb(53, 1, 1);
+    
+}
+
+a:link, a:visited {
+    color:  rgb(71, 3, 3);
+    padding: 5px 10px;
+}
+#vamo, a {
+
+    /*color: rgb(71, 3, 3);*/
+    
+       margin-left: 100px;
+       margin-right: 50px;
+        margin-top: 10px;
+    }
+
+
 
 #nando {
     font-family: 'titulo';
     font-size: 50px;
 }
 
-
-
-#navegaçao {
-    
-   width: 1300px;
-    padding-top: 20px;
-    background-color: linen;
+#navegacao {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 245, 230, 0.9);
     text-align: center;
-
-    background-repeat: no-repeat;
-    background-size: cover;
     border-radius: 5px;
 }
-/**************************links cabeçalho*******************/
-a {
 
+/*a {
     font-size: 20px;
-    
-}
-a:link, a:visited {
-    color:  rgb(71, 3, 3);
-    padding: 15px 18px;
-}
+    color: rgb(71, 3, 3);
+    padding: 5px 10px;
+    text-decoration: none;
+}*/
 
 a:hover {
-    color:linen;
+    color: linen;
     background: rgb(71, 3, 3);
-
+    transition: 0.3s;
 }
 
- #vamo, a {
-
-/*color: rgb(71, 3, 3);*/
-
-   margin-left: 100px;
-   margin-right: 50px;
-    margin-top: 10px;
-}
-#logo {
-    margin-top: 1px;
-}
- #ABISS {
-    font-family: 'terror';
-    color: rgb(53, 1, 1);
+#principal {
+    background-image: url('imagens/mascara.jpg');
+    width: 90%;
+    max-width: 1200px;
+    margin: 10px auto;
+    height: auto;
+    min-height: 350px;
     
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
 }
-/**************Conteudo***************************/
-
-
 
 #titulo {
     text-align: justify;
     margin-left: 30px;
-    margin-top: 50px;
-    width: 450px;
+    margin-top: 10px;
+    width: 500px;
     color: rgb(255, 255, 255);
 
 }
+
 #resumo {
     font-size: 15px;
     text-align: justify;
     width: 600px;
     margin-left: 20px;
     color: rgb(255, 255, 255);
-}
-
-
-#principal{
-    margin: 10px auto;
-   /* border: 1px solid red;*/
-    width: 1200px;
-    height: 350px;
-
-    background-image: url('imagens/mascara.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 5px;
-   /* border: 1px solid blue;
-    background-color: rgb(0, 4, 26);*/
-}
-
-#secundario{
-    margin: 10px auto;
-   /* border: 1px solid red;*/
-    width: 1200px;
-    height: 350px;
-    background-color: black;
-
-    /*background-image: url('imagens/mascara.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: 1px solid blue;
-    background-color: rgb(0, 4, 26);*/
 }
 
 #titulo2 {
@@ -146,92 +126,147 @@ a:hover {
 
 }
 
-
-.conteiner {
-    display: flex;
-    gap: 60px;
-    height: 600px;
-    justify-content: space-between;
-   /* border: 1px solid red;*/
-    padding: 5px 0px;
+#secundario {
+    width: 90%;
+    max-width: 1200px;
+    margin: 10px auto;
+    height: auto;
+    min-height: 350px;
+    background-color: black;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
 }
+.conteiner {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+
+#terciario {
+    
+    width: 90%;
+    max-width: 1200px;
+    margin: 10px auto;
+    height: auto;
+    min-height: 350px;
+    background-color: rgb(71, 3, 3);
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+}
+
+
 
 #itens {
-    width: 400px;
+    
+    flex: 1;
+    min-width: 300px;
+    max-width: 400px;
     height: 200px;
-    background-color: rgb(90, 2, 2);
-  /*  margin: 30px;*/
-  font-family: 'titulo';
-  color: white;
-  padding: 10px;
-  border-radius: 15px 30px;
+    background-color: rgba(90, 2, 2, 0.9);
+    font-family: 'titulo';
+    color: white;
+    padding: 10px;
+    border-radius: 15px 30px;
+    text-align: center;
 }
 
-
-.clear {
-    clear: both;
-
-}
-
+#itens1
+{
+   
+    flex: 1;
+    min-width: 300px;
+    max-width: 400px;
+    height: 200px;
+    font-family: 'titulo';
+    color: white;
+    padding: 10px;
+    border-radius: 15px 30px;
+    text-align: center;
+} 
 #titulo3 {
     text-align: justify;
     margin-left: 30px;
-    margin-top: 50px;
+    margin-top: 30px;
     width: 800px;
     color: rgb(255, 255, 255);
 
 }
-
-#terciario{
-    margin: 10px auto;
-   /* border: 1px solid red;*/
-    width: 1200px;
-    height: 350px;
-    background-color: black;
-
-    /*background-image: url('imagens/mascara.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: 1px solid blue;
-    background-color: rgb(0, 4, 26);*/
-}
-
-
-#itens1 {
-
-
-background-color: rgb(90, 2, 2);
-  /*  margin: 30px;*/
-  font-family: 'titulo';
-  color: white;
-  padding: 10px;
-  border-radius: 15px 30px;
-}
-.final{
-margin-left: 40px;
-margin-top: 45px;
-    gap: 40px;
+.final {
+    width: 900px;
     display: flex;
+    
     justify-content: left;
+    gap: 20px;
+    margin: 5px 40px;
+    
+    margin-left: 30px;
+margin-top: 10px;
+   
+   
 }
 
-
-
-
-
-
-
-
-/*#texto {
-    font-size: 18px;
+#apresentaçao {
+    margin: 30px 40px;
     text-align: justify;
-    margin-top: 80px;
-    width: 750px;
-    color: azure;
-}*/
-
-#formulario {    
-  width: 250px;
-  height: 300px;
 }
+
+
+
+#formulario {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+}
+
+/* Responsividade */
+@media (max-width: 1024px) {
+    #navegacao {
+        width: 95%;
+    }
+    #principal, #secundario, #terciario {
+        background-size: contain;
+    }
+}
+
+@media (max-width: 768px) {
+    #nando {
+        font-size: 40px;
+    }
+    .conteiner {
+        flex-direction: column;
+        align-items: center;
+    }
+    #itens, #itens1 {
+        width: 80%;
+    }
+    #principal, #secundario, #terciario {
+        width: 95%;
+        background-position: top;
+    }
+}
+
+@media (max-width: 480px) {
+    #nando {
+        font-size: 30px;
+    }
+    a {
+        font-size: 18px;
+    }
+    #itens, #itens1 {
+        width: 100%;
+    }
+    #principal, #secundario, #terciario {
+        background-size: contain;
+    }
+}
+
+
+
 
