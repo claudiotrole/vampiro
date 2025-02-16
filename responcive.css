@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+@media (max-width: 600px) {
+    
+    h1,h2, h4 #title1,.ABISS {
+        font-size: 25px;
+        text-align: center;
+    }
+
+
+    header{ .menuDesktop {
+    display: none;
+    }
+    .menusmarth {
+        display: block;
+    
+    }
+
+
+    }
+
+
+}
