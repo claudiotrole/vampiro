@@ -6,10 +6,15 @@
 
 @media (max-width: 600px) {
     
-    h1,h2, h4 #title1,.ABISS {
-        font-size: 25px;
+    /*h1, h2, h4  {
+        .title1,.ABISS {
+            display: none;
+        }
+        font-size: 20px;
         text-align: center;
-    }
+        width: auto;
+        border: 1px solid yellow;
+    }*/
 
 
     header{ .menuDesktop {
@@ -17,11 +22,18 @@
     }
     .menusmarth {
         display: block;
+        width: 20px;
+        
+        
     
     }
 
 
     }
+
+    
+    
+     
 
 
 }
