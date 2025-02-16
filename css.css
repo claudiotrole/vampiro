@@ -8,6 +8,12 @@ body {
     background-color: black;
     color: white;
 }
+@font-face {
+    font-family: 'dragon';
+    src: url('dragon/DRAGON\ HUNTER.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 
 @font-face {
@@ -25,7 +31,7 @@ body {
 }
 
 #ABISS {
-    font-family: 'terror';
+    font-family: 'dragon';
     color: rgb(53, 1, 1);
     
 }
@@ -34,13 +40,18 @@ body {
 
 
 
+#drop:hover .menu {
+    display: block;
+}
 
 
 
 
-
-
-
+img {
+    width: 100%;
+    border-radius: 10px;
+    padding-bottom: 5px;
+}
 
 
 header {
@@ -49,11 +60,14 @@ header {
     background-color: rgba(255, 245, 230, 0.9);
     border-radius: 5px;
     margin-bottom: 20px;
-    
+
     .menusmarth {
         display: none;
     }
 }
+
+
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -221,4 +235,48 @@ p {
         flex-direction: column;
         align-items: center;
     }
+
+.title1  {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+.title2  
+    
+    {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
+    
+
+.title {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
+
+    .section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box {
+    
+        flex: 1;
+        min-width: 280px;
+        max-width: 400px;
+        padding: 5px;
+        background-color: rgb(71, 3, 3);
+        border-radius: 10px;
+        font-family: 'titulo';
+        text-align: justify;
+    }
+
+
+    
+
 }
