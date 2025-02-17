@@ -1,10 +1,11 @@
 * {
     padding: 0;
     margin: 0;
+   
 }
 body {
     background-color: #0a0a0a;
-    overflow-x: hidden;
+   
 }
 
 @font-face {
@@ -78,6 +79,10 @@ main {
 
 @media (max-width: 780px) {
 
+   ul li a .nav-list{
+        overflow-x: hidden;
+        
+    }
     body {
         overflow-x: hidden;
     }
@@ -93,17 +98,21 @@ main {
         justify-content: space-around;
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
+        
     }
     .nav-list li {
         margin-left: 0;
         opacity: 1;
+        
     }
     .mobile-menu {
         display: block;
+        
     }
 
     .nav-list.active {
         transform: translateX(0);
+        
     }
 
     .mobile-menu.active .line1 {
@@ -372,6 +381,17 @@ h4 {
     body {
         overflow-x: hidden;
     }
+    #principal{
+        margin: 10px auto;
+       /*border: 1px solid red;*/
+    width: 98%;
+        background-image: url('imagens/lua.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 5px;
+       /* border: 1px solid blue;
+        background-color: rgb(0, 4, 26);*/
+    }
     .container {
         flex-direction: column;
         align-items: center;
@@ -443,12 +463,22 @@ h4 {
         align-items: center;
         width: 100%;
     }
+    .section1 {
+   
+        width: 90%;
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 10px;
+        background-color: rgba(90, 2, 2, 0.9);
+        border-radius: 10px;
+        text-align: center;
+    }
 
     .box {
     
         flex: 1;
         min-width: 280px;
-        max-width: 400px;
+        max-width: 355px;
         padding: 5px;
         background-color: rgb(71, 3, 3);
         border-radius: 10px;
@@ -458,9 +488,7 @@ h4 {
     }
 
 
-    body {
-        overflow-x: hidden;
-    }
+   
 
     
 
